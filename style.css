@@ -338,6 +338,15 @@ html , body{
     color: #929191;
 }
 
+body::-webkit-scrollbar{
+  background-color:transparent;
+}
+body::-webkit-scrollbar-thumb{
+  background-color:#F391A1;
+  border-radius: 10px;
+  transition: "body" ease-in 3s;
+}
+
 /* Your existing styles */
 
 /* Media query for small screens (mobile devices) */
@@ -509,6 +518,7 @@ html , body{
   
     .all-work-link > h2 {
       font-size: 5vw;
+      font-weight: 400;
     }
   
     /* Skill Interest Styles */
